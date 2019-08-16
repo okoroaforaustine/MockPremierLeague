@@ -1,0 +1,37 @@
+{
+  "name": "mockpremierleague",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/okoroaforaustine/MockPremierLeague.git"
+  },
+  "author": "okoroaforaustine@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/okoroaforaustine/MockPremierLeague/issues"
+  },
+  "homepage": "https://github.com/okoroaforaustine/MockPremierLeague#readme",
+  "devDependencies": {
+    "body-parser": "^1.19.0",
+    "expressjs": "^1.0.1",
+    "jest": "^24.8.0",
+    "mongodb": "^3.3.0-beta2"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-joi-validation": "^2.0.0",
+    "express-validation": "^1.0.2",
+    "joi": "^14.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.9",
+    "sequelize": "^5.14.0"
+  }
+}
