@@ -17,7 +17,7 @@ const userFixtures = require("./router/users/fixtures");
 // connect to mongodb
 
 //mongoose.connect("mongodb://127.0.0.1:27017/app_database", { useNewUrlParser: true });
-mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/your-app-name',{useNewUrlParser: true});
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/mockpremierleague234',{useNewUrlParser: true});
 
 mongoose.set('useCreateIndex', true);
 
@@ -56,7 +56,7 @@ app.use((err, req, res, next) => {
 });
 
 // listen
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 27017;
 app.listen(PORT, () => {
     console.log(`Server started, listening on PORT ${PORT}`);
 });
