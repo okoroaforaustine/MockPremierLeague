@@ -17,7 +17,7 @@ const userFixtures = require("./router/users/fixtures");
 // connect to mongodb
 
 //mongoose.connect("mongodb://127.0.0.1:27017/app_database", { useNewUrlParser: true });
-mongoose.connect("mongodb://testuserokoroafor:testuser@234@ds263927.mlab.com:63927/heroku_m73qr728",{useNewUrlParser: true});
+mongoose.connect("mongodb://testuserokoroafor:testuser234@ds263927.mlab.com:63927/heroku_m73qr728",{useNewUrlParser: true});
 
 mongoose.set('useCreateIndex', true);
 
